@@ -15,5 +15,9 @@ public class controler {
         return "Boa vindas ao sistema de cadastro ;)";
     }
 
+    @GetMapping("/cadastro")
+    public String cadastro() {
+        return "Iniciando o cadastro";
+    }
 }
 
