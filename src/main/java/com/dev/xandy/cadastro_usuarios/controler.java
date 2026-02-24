@@ -12,7 +12,7 @@ public class controler {
 
     @GetMapping("/boasvindas")
     public String boavindas() {
-        return "Boa vindas ao sistema de cadastro";
+        return "Boa vindas ao sistema de cadastro ;)";
     }
 
 }
